@@ -1,0 +1,54 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-layer-2 {
+    width: 30%;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form-layer-2 .input-div {
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+.input-div input {
+    width: 50%;
+    font-size: 1.25rem;
+    margin: 2px;
+    border: none;
+    padding: 1px;
+    margin-left: -0.5px;
+    background-color: transparent;
+    transition: 0.5s linear;
+}
+.input-div input:focus {
+    background-color: white;
+    width: 100%;
+}
+.submit-button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: 0.5s;
+    padding: 10px 25px;
+}
+.submit-button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register-button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.register-button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

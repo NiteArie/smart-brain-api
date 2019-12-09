@@ -1,0 +1,15 @@
+.logo-container {
+    margin: 5px;
+    margin-left: 20px;
+}
+.tilt-logo {
+    border-radius: 5px;
+    border: 1px solid black;   
+    background: linear-gradient(to right, rgb(197, 162, 108), rgb(220, 62, 227));
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
